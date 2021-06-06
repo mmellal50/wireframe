@@ -20,7 +20,8 @@
     height:700px;
     border-radius: 5px;
     position: center;
-    background-color: rgba(132, 143, 84, 0.925);
+    background-color: rgba(193, 197, 175, 0.925);
+ 
 }
 
 
@@ -54,7 +55,7 @@
    /* margin: 0.2px;*/
     position: right;
     transform: translate(350% ,-310%);
-    background-color: rgb(97, 185, 187)
+    background-color: rgb(83, 144, 145)
     /*background-image: url("paper.gif");*/
 }
 .model2 {
@@ -64,8 +65,8 @@
    /* margin: 0.2px;*/
     position: right;
     transform: translate(230% ,-410%);
-    background-color: rgb(104, 150, 151)
-    
+    background-image: url(pic/pic5.jpg);
+    background-size: 100%;
 }
 .model3 {
     width: 330px;
@@ -74,7 +75,8 @@
    /* margin: 0.2px;*/
     position: right;
     transform: translate(230% ,-405%);
-    background-color: rgb(84, 188, 192)
+    background-image: url(pic/pic6.jpg);
+    background-size: 100%;
 }
 .model4 {
     width: 330px;
@@ -83,7 +85,8 @@
    /* margin: 0.2px;*/
     position: right;
     transform: translate(350% ,-505%);
-    background-color: rgb(104, 150, 151)
+    background-image: url(pic/pic7.jpg);
+    background-size: 100%;
 }
 .model5 {
     width: 330px;
@@ -92,7 +95,8 @@
    /* margin: 0.2px;*/
     position: right;
     transform: translate(470% ,-605%);
-    background-color: rgb(57, 165, 168)
+    background-image: url(pic/pic8.jpg);
+    background-size: 100%;
 }
 .center {
    
@@ -104,4 +108,52 @@
   transform: translate(-50%, -50%);
    
     
+}
+.pic-show1 {
+    width: 330px;
+    height: 330px;
+    background-image: url(pic/pic1.jpg);
+}
+.pic-contenue {
+    width: 700px;
+    height: 700px;
+    background-image: url(pic/pic2.jpg);
+    background-size: 100%;
+
+}
+.pic-contenue:hover {
+   
+    background-size: 200%;
+  
+
+}
+.pic-main1{
+    width: 755px;
+    height: 220px;
+    background-image: url(pic/pic1.jpg);
+    background-size: 100%;
+
+}
+.pic-main1:hover{
+   
+    background-size: 110%;
+
+}
+.logo{
+   
+    background-image: url(pic/pic3.jpg);
+    background-size: 100%;
+
+}
+.model1-show1 {
+    width: 330px;
+    height: 330px;
+    background-image: url(pic/pic4.jpg);
+    background-size: 100%;
+
+}
+.model1-show1:hover {
+  
+    background-size: 125%;
+
 }
